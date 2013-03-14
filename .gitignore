@@ -1,5 +1,9 @@
 *.py[cod]
 
+# Twisted stuff
+*.tac
+dropins.cache
+
 # C extensions
 *.so
 
@@ -30,6 +34,7 @@ nosetests.xml
 *.mo
 
 # Mr Developer
+.komodoproject
 .mr.developer.cfg
 .project
 .pydevproject
