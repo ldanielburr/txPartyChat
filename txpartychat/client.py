@@ -44,7 +44,7 @@ class EchoBotProtocol(MessageProtocol):
 
 # Set up the Twisted application
 
-application = service.Application('MUC Client')
+application = service.Application('Partychat Client')
 
 client = XMPPClient(THIS_JID, SECRET, host='talk.google.com', port=5222)
 client.logTraffic = LOG_TRAFFIC
